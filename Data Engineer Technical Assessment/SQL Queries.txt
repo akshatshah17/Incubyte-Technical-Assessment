@@ -1,0 +1,43 @@
+create table Customer_Records (
+	Customer_Name varchar(255) primary key,
+	Customer_ID varchar(18) not null,
+	Customer_Open_Date date not null,
+	Last_Consulted_Date date,
+	Vaccination_Type char(5),
+	Doctor_Consulted char(255),
+	State char(5),
+	Country char(5),
+	Post_Code integer,
+	Date_Of_Birth date,
+	Active_Customer char(1)
+);
+
+insert into customer_records 
+(Customer_Name,Customer_ID,Customer_Open_Date,Last_Consulted_Date,Vaccination_Type,
+ Doctor_Consulted,State,Country,Date_Of_Birth,Active_Customer) 
+ values ('Alex','123457','20101012','20121013','MVD','Paul','SA','USA','19870306','A');
+
+insert into customer_records 
+(Customer_Name,Customer_ID,Customer_Open_Date,Last_Consulted_Date,Vaccination_Type,
+ Doctor_Consulted,State,Country,Date_Of_Birth,Active_Customer) 
+ values ('John','123458','20101012','20121013','MVD','Paul','TN','IND','19870306','A');
+
+insert into customer_records 
+(Customer_Name,Customer_ID,Customer_Open_Date,Last_Consulted_Date,Vaccination_Type,
+ Doctor_Consulted,State,Country,Date_Of_Birth,Active_Customer) 
+ values ('Mathew','123459','20101012','20121013','MVD','Paul','WAS','PHIL','19870306','A');
+
+insert into customer_records 
+(Customer_Name,Customer_ID,Customer_Open_Date,Last_Consulted_Date,Vaccination_Type,
+ Doctor_Consulted,State,Country,Date_Of_Birth,Active_Customer) 
+ values ('Matt','12345','20101012','20121013','MVD','Paul','BOS','NYC','19870306','A');
+
+insert into customer_records 
+(Customer_Name,Customer_ID,Customer_Open_Date,Last_Consulted_Date,Vaccination_Type,
+ Doctor_Consulted,State,Country,Date_Of_Birth,Active_Customer) 
+ values ('Matt','12345','20101012','20121013','MVD','Paul','BOS','NYC','19870306','A');
+
+insert into customer_records 
+(Customer_Name,Customer_ID,Customer_Open_Date,Last_Consulted_Date,Vaccination_Type,
+ Doctor_Consulted,State,Country,Date_Of_Birth,Active_Customer) 
+ values ('Jacob','1256','20101012','20121013','MVD','Paul','VIC','AU','19870306','A');
